@@ -6,10 +6,39 @@
     height: 100%;
 }
 
+.w100 {
+    width: 100%;
+}
+
 .nav-list {
     display: flex;
     flex-flow: wrap row;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+}
+
+.app-showcase {
+    height: 90%;
+    width: 90%;
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.img-pos {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.intro-pos {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+}
+
+.btn-pos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
