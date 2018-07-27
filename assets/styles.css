@@ -42,3 +42,14 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+.feat-pos {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 3em;
+}
